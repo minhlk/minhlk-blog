@@ -85,6 +85,6 @@ module.exports = () => {
       return config
     },
     output: 'export',
-    basePath: '/minhlk-blog',
+    basePath: process.env.BASE_PATH,
   })
 }
