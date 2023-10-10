@@ -6,17 +6,17 @@ const siteMetadata = {
   description: 'MinhLK Personal Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://minhlk.github.io/minhlk-blog/',
+  siteRepo: '',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
+  mastodon: '',
   email: 'duyminhdev@gmail.com',
-  github: 'https://github.com',
+  github: 'https://github.com/minhlk',
   twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
+  facebook: 'https://www.facebook.com/minhlkz/',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/minh-duy-bui/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
