@@ -6,7 +6,7 @@ const siteMetadata = {
   description: 'MinhLK Personal Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://minhlk.github.io/minhlk-blog/',
+  siteUrl: 'https://minhlk.site/',
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
