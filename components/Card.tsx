@@ -46,7 +46,7 @@ const Card = ({ title, description, href, topics, star }) => (
             {topics && topics.length > 0 ? topics.join(' • ') : 'Others'}
           </div>
           {star > 0 && (
-            <div className="text-xl text-black-400 grid gap-0 grid-cols-2">
+            <div className="text-xl text-black-400 grid gap-0 grid-cols-2 m-auto">
               {star}
               <svg
                 fill="#fc03b1"
