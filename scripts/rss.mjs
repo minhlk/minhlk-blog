@@ -39,7 +39,8 @@ async function generateRSS(config, allBlogs, page = 'feed.xml') {
   // RSS for blog post
   if (publishPosts.length > 0) {
     const rss = generateRss(config, publishPosts)
-    writeFileSync(`./public/${page}`, rss)
+    writeFileSync(`public/${page}`, rss)
+    console.log('feed.xml is generated')
   }
 
   if (publishPosts.length > 0) {
