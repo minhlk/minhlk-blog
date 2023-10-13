@@ -1,0 +1,24 @@
+---
+title: Redux, Redux toolkit in ReactJs
+date: '2023-10-13'
+tags: ['reactjs', 'redux']
+draft: false
+summary: General idea about redux and redux toolkit in react js
+---
+
+
+## Redux 
+- **Global state management** for React 
+- **Flow**: Action creator dispatch an action to reducer -> Reducer will use that data and store to global state (Store).
+
+![Reduxflows](/static/images/redux/reduxflows.png)
+
+## Redux toolkit
+- Provide a **boilerplate** and simplify common Redux tasks: create Action Creator, Reducer
+- Main functions:
+    - **createSlice**: create a slice of a global state (Redux store)
+    - **createAsyncThunk**:
+        - Create an async Action Creator
+        - Provide 3 action types: pending, fulfilled, and rejected
+- Integrate with **Redux DevTools** for easily monitoring/debugging
+![DevTools](/static/images/redux/devtools.png)
