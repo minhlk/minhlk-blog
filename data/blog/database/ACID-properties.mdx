@@ -1,0 +1,28 @@
+---
+title: ACID properties of DBMS
+date: '2023-10-27'
+tags: ['database', 'ACID']
+draft: false
+summary: ACID properties of DBMS
+---
+
+## ACID Transactions
+- 4 properties of a transaction in a DBMS
+- Atomicity 
+    - All operations are success - one failed then rollback whole operations
+- Consistency
+    - Data remain consistency before and after a transaction. (Enforce integrity constraints)
+    - E.g: if the server down in the middle of transaction, data won’t be updated
+- Isolation
+    - Any read, write operation won't be impacted by read, write of other transactions.
+    - Concurrent control.
+- Durability
+    - Once committed, can’t not rollback
+
+![acid1](/static/images/database/acid-data.png)
+
+![acid2](/static/images/database/ACID-Properties.jpg)
+
+## Source
+https://www.scaler.com/topics/dbms/acid-properties-in-dbms/
+https://www.geeksforgeeks.org/acid-properties-in-dbms/
