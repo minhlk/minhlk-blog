@@ -6,7 +6,7 @@ const dingSound = '/static/sound/ding.mp3'
 
 const Pomodoro = () => {
   // const defaultTime = useRef(3)
-  const audioRef = useRef<HTMLAudioElement>()
+  const audioRef = useRef<HTMLAudioElement>(null)
   const defaultTime = useRef(60 * 25)
   const [defaultPeriod, setDefaultPeriod] = useState(defaultTime.current)
   const [remainSeconds, setRemainSeconds] = useState(defaultTime.current)
@@ -82,8 +82,9 @@ const Pomodoro = () => {
         }}
       />
       <div>
-        {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
-        <audio ref={audioRef} src={dingSound} />
+        <audio ref={audioRef} src={dingSound}>
+          <track kind="captions" />
+        </audio>
       </div>
     </>
   )
